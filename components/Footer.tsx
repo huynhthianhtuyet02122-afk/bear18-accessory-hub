@@ -13,24 +13,24 @@ export function Footer() {
           </p>
         </div>
         <div className="flex flex-wrap justify-center gap-6 font-heading text-xs uppercase tracking-wide text-subtle">
-          <Link className="hover:text-black hover:underline" href="/about">
+          <Link className="text-subtle transition hover:text-black hover:underline focus:outline-none focus:ring-2 focus:ring-black" href="/about">
             Về shop
           </Link>
-          <Link className="hover:text-black hover:underline" href="/categories">
+          <Link className="text-subtle transition hover:text-black hover:underline focus:outline-none focus:ring-2 focus:ring-black" href="/categories">
             Danh mục
           </Link>
-          <Link className="hover:text-black hover:underline" href="/styling">
+          <Link className="text-subtle transition hover:text-black hover:underline focus:outline-none focus:ring-2 focus:ring-black" href="/styling">
             Phối đồ
           </Link>
-          <Link className="hover:text-black hover:underline" href="/contact">
+          <Link className="text-subtle transition hover:text-black hover:underline focus:outline-none focus:ring-2 focus:ring-black" href="/contact">
             Kênh mua hàng
           </Link>
         </div>
         <div className="flex gap-3">
-          <Link className="grid h-10 w-10 place-items-center rounded-full border border-zinc-200 transition hover:bg-black hover:text-white" href="/contact">
+          <Link className="grid h-10 w-10 place-items-center rounded-full border border-zinc-300 text-black transition hover:border-black hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2" href="/contact">
             ig
           </Link>
-          <Link className="grid h-10 w-10 place-items-center rounded-full border border-zinc-200 transition hover:bg-black hover:text-white" href="/contact">
+          <Link className="grid h-10 w-10 place-items-center rounded-full border border-zinc-300 text-black transition hover:border-black hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2" href="/contact">
             fb
           </Link>
         </div>

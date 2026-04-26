@@ -35,7 +35,7 @@ export function VibePicker({ compact = false }: VibePickerProps) {
               type="button"
               onClick={() => setActiveSlug(vibe.slug)}
               className={`rounded-full px-6 py-3 text-sm font-bold transition focus:outline-none focus:ring-2 focus:ring-black ${
-                isActive ? "bg-black text-white" : "border border-zinc-200 bg-white text-black hover:border-black hover:bg-zinc-50"
+                isActive ? "chip-active" : "chip-inactive"
               }`}
             >
               {vibe.name.replace(" hằng ngày", "").replace(" / quà tặng", "")}
@@ -61,7 +61,7 @@ export function VibePicker({ compact = false }: VibePickerProps) {
             </div>
             <Link
               href="/styling"
-              className="mt-6 inline-block rounded-lg bg-black px-5 py-3 text-xs font-black uppercase tracking-widest text-white transition hover:bg-zinc-800"
+              className="btn-base btn-primary mt-6 px-5 py-3 text-xs"
             >
               Xem gợi ý phối
             </Link>
@@ -87,7 +87,7 @@ export function VibePicker({ compact = false }: VibePickerProps) {
           ))}
           <Link
             href="/contact"
-            className="rounded-2xl bg-zinc-950 p-6 text-white transition hover:bg-zinc-800 sm:col-span-2"
+            className="rounded-2xl border border-zinc-950 bg-zinc-950 p-6 text-white transition hover:border-zinc-800 hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 sm:col-span-2"
           >
             <h3 className="h3-title">Cần shop phối giúp?</h3>
             <p className="mt-2 text-sm text-inverse-muted">Nhắn outfit hoặc vibe bạn muốn, BEAR18 sẽ gợi ý combo phụ kiện phù hợp.</p>

@@ -128,7 +128,7 @@ export function Header() {
               <button
                 type="submit"
                 aria-label="Tìm kiếm"
-                className="absolute right-1 top-1/2 grid h-8 w-8 -translate-y-1/2 place-items-center rounded-full bg-black text-white transition hover:bg-zinc-800"
+                className="btn-base btn-primary absolute right-1 top-1/2 h-8 w-8 -translate-y-1/2 rounded-full text-base"
               >
                 →
               </button>
@@ -164,7 +164,7 @@ export function Header() {
           </button>
           <Link
             href="/contact"
-            className="hidden rounded-lg bg-black px-5 py-2.5 text-xs font-bold uppercase tracking-wide text-white transition hover:bg-zinc-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 active:scale-95 sm:inline-flex"
+            className="btn-base btn-primary hidden px-5 py-2.5 text-xs sm:inline-flex"
           >
             Kênh mua hàng
           </Link>
@@ -191,7 +191,7 @@ export function Header() {
               placeholder="Tìm danh mục hoặc sản phẩm..."
               type="search"
             />
-            <button type="submit" className="absolute right-2 top-1/2 grid h-9 w-9 -translate-y-1/2 place-items-center rounded-lg bg-black text-white">
+            <button type="submit" className="btn-base btn-primary absolute right-2 top-1/2 h-9 w-9 -translate-y-1/2 text-base">
               →
             </button>
           </form>
@@ -227,7 +227,7 @@ export function Header() {
             <Link
               href="/contact"
               onClick={() => setIsMenuOpen(false)}
-              className="mt-2 rounded-lg bg-black px-4 py-3 text-center text-sm font-bold uppercase tracking-wide text-white transition hover:bg-zinc-800"
+              className="btn-base btn-primary mt-2 px-4 py-3 text-center text-sm"
             >
               Kênh mua hàng
             </Link>

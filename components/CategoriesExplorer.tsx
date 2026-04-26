@@ -61,7 +61,7 @@ export function CategoriesExplorer({ initialQuery = "" }: { initialQuery?: strin
               type="button"
               onClick={() => setActiveFilter(filter)}
               className={`label-caps whitespace-nowrap rounded-full px-6 py-3 transition focus:outline-none focus:ring-2 focus:ring-black ${
-                isActive ? "bg-black text-white" : "chrome-chip hover:bg-zinc-200 hover:text-black"
+                isActive ? "chip-active" : "chip-inactive"
               }`}
             >
               {filter}
@@ -107,7 +107,7 @@ export function CategoriesExplorer({ initialQuery = "" }: { initialQuery?: strin
               setQuery("");
               setActiveFilter("Tất cả");
             }}
-            className="mt-6 rounded-lg bg-black px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition hover:bg-zinc-800"
+            className="btn-base btn-primary mt-6 px-6 py-3 text-sm"
           >
             Xem tất cả
           </button>

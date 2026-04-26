@@ -36,7 +36,7 @@ export function CategoryProductExplorer({
                 type="button"
                 onClick={() => setActiveFilter(filter)}
                 className={`whitespace-nowrap rounded-full px-5 py-2 text-xs font-bold transition focus:outline-none focus:ring-2 focus:ring-black ${
-                  isActive ? "bg-black text-white" : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200 hover:text-black"
+                  isActive ? "chip-active" : "chip-inactive"
                 }`}
               >
                 {filter}
@@ -57,7 +57,7 @@ export function CategoryProductExplorer({
           <div className="rounded-2xl border border-outline-variant bg-white p-10 text-center">
             <h2 className="h3-title">Chưa có mẫu khớp filter này</h2>
             <p className="mt-3 text-muted">Bạn có thể đổi vibe hoặc nhắn shop để được gợi ý mẫu đang có.</p>
-            <Link href="/contact" className="mt-6 inline-block rounded-lg bg-black px-6 py-3 text-sm font-bold uppercase tracking-wide text-white hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">
+            <Link href="/contact" className="btn-base btn-primary mt-6 px-6 py-3 text-sm">
               Nhắn shop tư vấn
             </Link>
           </div>

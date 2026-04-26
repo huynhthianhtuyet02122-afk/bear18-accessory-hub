@@ -73,7 +73,7 @@ export default async function CategoryDetailPage({ params }: Props) {
 
       <section className="container-shell grid gap-4 md:grid-cols-3">
         {["Xem trên TikTok Shop", "Shopee", "Nhắn shop tư vấn"].map((label) => (
-          <Link key={label} href="/contact" className="rounded-lg border border-outline-variant bg-white p-6 text-center font-heading text-lg font-bold text-black transition hover:border-black hover:bg-zinc-50 hover:text-black">
+          <Link key={label} href="/contact" className="rounded-lg border border-outline-variant bg-white p-6 text-center font-heading text-lg font-bold text-black transition hover:border-black hover:bg-zinc-50 hover:text-black focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">
             {label} ↗
           </Link>
         ))}

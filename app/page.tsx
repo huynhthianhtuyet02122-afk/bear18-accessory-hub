@@ -26,7 +26,7 @@ export default function HomePage() {
             <Link
               key={category.slug}
               href={`/categories/${category.slug}`}
-              className="ambient-card group flex min-h-32 flex-col items-center justify-center gap-4 rounded-lg p-5 text-center transition hover:border-black"
+              className="ambient-card group flex min-h-32 flex-col items-center justify-center gap-4 rounded-lg p-5 text-center text-black transition hover:border-black hover:bg-zinc-50 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2"
             >
               <span className="grid h-10 w-10 place-items-center rounded-full bg-surface-container text-lg font-black transition group-hover:scale-110">
                 {category.shortName.slice(0, 1)}
@@ -107,7 +107,7 @@ export default function HomePage() {
               <Link
                 key={label}
                 href={href}
-                className="rounded-full bg-white px-6 py-3 text-sm font-bold uppercase tracking-wide text-black transition hover:bg-zinc-200 hover:text-black"
+                className="btn-base btn-inverse rounded-full px-6 py-3 text-sm"
               >
                 {label}
               </Link>

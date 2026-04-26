@@ -5,7 +5,10 @@
 secrets.*
 node_modules/
 .next/
+.next-*/
 .next-bear18/
+.next-bear18-check/
+.next-bear18-dev/
 .next-bear18-prod/
 out/
 dist/

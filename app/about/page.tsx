@@ -54,7 +54,7 @@ export default function AboutPage() {
           <span className="label-caps text-inverse-subtle">Visit us</span>
           <h2 className="section-title mt-4 text-white">Ghé shop Cần Thơ</h2>
           <p className="mt-5 leading-7 text-inverse-muted">Thông tin địa chỉ cụ thể đang để placeholder. Bạn nên nhắn shop xác nhận trước khi ghé.</p>
-          <Link href="/contact" className="mt-8 inline-block rounded-lg bg-white px-8 py-4 text-sm font-bold uppercase tracking-wide text-black transition hover:bg-zinc-100 hover:text-black">
+          <Link href="/contact" className="btn-base btn-inverse mt-8 px-8 py-4 text-sm">
             Kênh mua hàng
           </Link>
         </div>

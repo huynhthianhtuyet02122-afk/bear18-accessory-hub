@@ -16,7 +16,7 @@ export default function StylingPage() {
       <section className="mt-20 border-y border-zinc-200 py-16 text-center">
         <h2 className="section-title mb-4">Vẫn chưa tìm thấy vibe của bạn?</h2>
         <p className="mx-auto mb-8 max-w-xl text-muted">Nhắn BEAR18 để được gợi ý combo phụ kiện hợp outfit bạn đang có.</p>
-        <Link href="/contact" className="rounded-lg bg-black px-10 py-4 text-sm font-bold uppercase tracking-widest text-white transition hover:bg-zinc-800 hover:text-white">
+        <Link href="/contact" className="btn-base btn-primary px-10 py-4 text-sm tracking-widest">
           Nhắn shop tư vấn
         </Link>
       </section>

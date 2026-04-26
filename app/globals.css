@@ -108,6 +108,91 @@ select {
   border-color: #c9c9ce;
 }
 
+.btn-base {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  transition:
+    color 150ms ease,
+    background-color 150ms ease,
+    border-color 150ms ease,
+    box-shadow 150ms ease,
+    transform 150ms ease;
+}
+
+.btn-base:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #000000, 0 0 0 5px #ffffff;
+}
+
+.btn-base:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  background: #27272a;
+  border-color: #27272a;
+  color: #ffffff;
+}
+
+.btn-secondary,
+.btn-inverse {
+  background: #ffffff;
+  border: 1px solid #c9c9ce;
+  color: #000000;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus-visible,
+.btn-inverse:hover,
+.btn-inverse:focus-visible {
+  background: #f4f4f5;
+  border-color: #000000;
+  color: #000000;
+}
+
+.btn-ghost {
+  background: transparent;
+  border: 1px solid transparent;
+  color: #000000;
+}
+
+.btn-ghost:hover,
+.btn-ghost:focus-visible {
+  background: #f4f4f5;
+  color: #000000;
+}
+
+.chip-active {
+  background: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+
+.chip-inactive {
+  background: #ffffff;
+  border: 1px solid #d4d4d8;
+  color: #18181b;
+}
+
+.chip-inactive:hover,
+.chip-inactive:focus-visible {
+  background: #f4f4f5;
+  border-color: #000000;
+  color: #000000;
+}
+
 .image-readability {
   text-shadow: 0 1px 18px rgba(0, 0, 0, 0.45);
 }

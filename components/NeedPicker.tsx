@@ -47,10 +47,10 @@ export function NeedPicker() {
               ))}
             </div>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="/styling" className="rounded-lg bg-black px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition hover:bg-zinc-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">
+              <Link href="/styling" className="btn-base btn-primary px-6 py-3 text-sm">
                 Xem gợi ý
               </Link>
-              <Link href="/contact" className="rounded-lg border border-outline-variant bg-white px-6 py-3 text-sm font-bold uppercase tracking-wide text-black transition hover:border-black hover:bg-zinc-50 hover:text-black focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">
+              <Link href="/contact" className="btn-base btn-secondary px-6 py-3 text-sm">
                 Kênh mua hàng
               </Link>
             </div>
